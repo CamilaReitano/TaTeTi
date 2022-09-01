@@ -44,7 +44,7 @@ public class ServicioTableros {
                 do {
                     lugar = (int) (Math.random() * 9);
                 } while (!t.getTablero()[lugar].equals("-"));
-                t.tablero[lugar] = t.getComputadora();
+                t.getTablero()[lugar]= t.getComputadora();
                 mostrarTablero(t);
                 t.setTurno(false);
                 progresoJuego(t);
@@ -54,7 +54,8 @@ public class ServicioTableros {
                 do {
                     lugar = leer.nextInt();
                 } while (!t.getTablero()[lugar].equals("-"));
-                t.tablero[lugar] = t.getJugador();
+                t.getTablero()[lugar]= t.getComputadora();
+               // t.tablero[lugar] = t.getJugador();
                 mostrarTablero(t);
                 t.setTurno(true);
                 progresoJuego(t);
@@ -101,7 +102,7 @@ public class ServicioTableros {
         } else if (t.getTablero()[2].equals("o") & t.getTablero()[4].equals("o") & t.getTablero()[6].equals("o")) {
             t.setProgresoJuego(1);
             System.out.println("Has Perdido");
-        } else if (t.getTablero()[0].equals("x") & t.getTablero()[1].equals("x") & t.getTablero()[2].equals("x")) {
+        } else  if (t.getTablero()[0].equals("x") & t.getTablero()[1].equals("x") & t.getTablero()[2].equals("x")) {
             t.setProgresoJuego(1);
             System.out.println("Has ganado");
         } else if (t.getTablero()[3].equals("x") & t.getTablero()[4].equals("x") & t.getTablero()[5].equals("x")) {

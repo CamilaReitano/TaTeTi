@@ -2,7 +2,7 @@
 package Entidad;
 
 public class TaTeTi {
-   public String[] tablero;
+   private String[] tablero;
    private String jugador;
    private String computadora;
    private int progresoJuego;
