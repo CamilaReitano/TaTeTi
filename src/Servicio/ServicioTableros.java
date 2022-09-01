@@ -127,3 +127,64 @@ public class ServicioTableros {
         }
     }
 }
+
+//--------------------------OTRO MODO DE EVALUAR EL PROGRESO DEL JUEGO-----------------------------------------------------
+
+//    public int progresoJuego(TaTeTi t) {
+//        t.setContadorProgreso(t.getContadorProgreso() + 1);
+//
+//        if (t.getTablero()[0].equals("o") & t.getTablero()[1].equals("o") & t.getTablero()[2].equals("o")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has Perdido");
+//        } else if (t.getTablero()[3].equals("o") & t.getTablero()[4].equals("o") & t.getTablero()[5].equals("o")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has Perdido");
+//        } else if (t.getTablero()[6].equals("o") & t.getTablero()[7].equals("o") & t.getTablero()[8].equals("o")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has Perdido");
+//        } else if (t.getTablero()[0].equals("o") & t.getTablero()[3].equals("o") & t.getTablero()[6].equals("o")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has Perdido");
+//        } else if (t.getTablero()[1].equals("o") & t.getTablero()[4].equals("o") & t.getTablero()[7].equals("o")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has Perdido");
+//        } else if (t.getTablero()[2].equals("o") & t.getTablero()[5].equals("o") & t.getTablero()[8].equals("o")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has Perdido");
+//        } else if (t.getTablero()[0].equals("o") & t.getTablero()[4].equals("o") & t.getTablero()[8].equals("o")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has Perdido");
+//        } else if (t.getTablero()[2].equals("o") & t.getTablero()[4].equals("o") & t.getTablero()[6].equals("o")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has Perdido");
+//        } else if (t.getTablero()[0].equals("x") & t.getTablero()[1].equals("x") & t.getTablero()[2].equals("x")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has ganado");
+//        } else if (t.getTablero()[3].equals("x") & t.getTablero()[4].equals("x") & t.getTablero()[5].equals("x")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has ganado");
+//        } else if (t.getTablero()[6].equals("x") & t.getTablero()[7].equals("x") & t.getTablero()[8].equals("x")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has ganado");
+//        } else if (t.getTablero()[0].equals("x") & t.getTablero()[3].equals("x") & t.getTablero()[6].equals("x")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has ganado");
+//        } else if (t.getTablero()[1].equals("x") & t.getTablero()[4].equals("x") & t.getTablero()[7].equals("x")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has ganado");
+//        } else if (t.getTablero()[2].equals("x") & t.getTablero()[5].equals("x") & t.getTablero()[8].equals("x")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has ganado");
+//        } else if (t.getTablero()[0].equals("x") & t.getTablero()[4].equals("x") & t.getTablero()[8].equals("x")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has ganado");
+//        } else if (t.getTablero()[2].equals("x") & t.getTablero()[4].equals("x") & t.getTablero()[6].equals("x")) {
+//            t.setProgresoJuego(1);
+//            System.out.println("Has ganado");
+//        } else if (t.getContadorProgreso() == 9) {
+//            t.setProgresoJuego(2);
+//            System.out.println("Has empatado");
+//        }
+//
+//        return t.getProgresoJuego();
+//    }
