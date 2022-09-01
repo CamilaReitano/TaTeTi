@@ -11,10 +11,11 @@ import Servicio.ServicioTableros;
 public class MainTaTeTi {
 
     public static void main(String[] args) {
-        
+
         ServicioTableros s = new ServicioTableros();
         TaTeTi t = s.creartablero();
         s.jugar(t);
+       
+
     }
-    
 }
